@@ -1,0 +1,55 @@
+body {
+  background-color: BlueViolet;
+  font-family: open sans;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: 'montserrat';
+  font-size: 20px;
+  line-height: 30px;
+  margin :15px;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+p {
+  margin : 10px;
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+}
+
+.container {
+  background-color: blue;
+  width: 600px;
+  margin: 0 auto;
+         /* OR subtle border */
+
+}
+
+.presentation {
+    background: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Subtle shadow */
+    padding: 80px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle{
+border-radius: 50%;
+}
+
+.button{
+  background-color: grey;
+}
